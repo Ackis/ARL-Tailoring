@@ -2760,27 +2760,6 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Wrath of the Lich King.
 	-------------------------------------------------------------------------------
-	-- Lightweave Embroidery -- 55642
-	recipe = AddRecipe(55642, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(420, 420, 420, 420, 420)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
-	-- Darkglow Embroidery -- 55769
-	recipe = AddRecipe(55769, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(420, 420, 420, 420, 420)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
-	-- Swordguard Embroidery -- 55777
-	recipe = AddRecipe(55777, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(420, 420, 420, 420, 420)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
 	-- Frostweave Net -- 55898
 	recipe = AddRecipe(55898, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(360, 360, 370, 375, 380)
@@ -3661,30 +3640,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
 
-	-- Lightweave Embroidery -- 75172
-	recipe = AddRecipe(75172, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetPreviousRankID(55642)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
-	-- Darkglow Embroidery -- 75175
-	recipe = AddRecipe(75175, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetPreviousRankID(55769)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
-	-- Swordguard Embroidery -- 75178
-	recipe = AddRecipe(75178, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetPreviousRankID(55777)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
 	-- Embersilk Net -- 75247
 	recipe = AddRecipe(75247, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(425, 425, 435, 445, 455)
@@ -4176,30 +4131,6 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Mists of Pandaria.
 	-------------------------------------------------------------------------------
-	-- Lightweave Embroidery -- 125481
-	recipe = AddRecipe(125481, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 550, 550, 550)
-	recipe:SetPreviousRankID(75172)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 17487, 18772, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
-	-- Darkglow Embroidery -- 125482
-	recipe = AddRecipe(125482, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 550, 550, 550)
-	recipe:SetPreviousRankID(75175)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 17487, 18772, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
-	-- Swordguard Embroidery -- 125483
-	recipe = AddRecipe(125483, V.MOP, Q.COMMON)
-	recipe:SetSkillLevels(550, 550, 550, 550, 550)
-	recipe:SetPreviousRankID(75178)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 5153, 9584, 11052, 16640, 17487, 18772, 28699, 33580, 33613, 33636, 44783, 45559, 57405)
-
 	-- Master's Spellthread -- 125496
 	recipe = AddRecipe(125496, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 550, 550, 550)
