@@ -53,6 +53,7 @@ function module:InitializeTrainers()
 	addon:AddTrainer(44783, "Hiwahi Three-Feathers", Z.ORGRIMMAR, 38.8, 50.5, "Horde")
 	addon:AddTrainer(45559, "Nivi Weavewell", Z.ORGRIMMAR, 41.1, 79.7, "Horde")
 	addon:AddTrainer(57405, "Silkmaster Tsai", Z.VALLEY_OF_THE_FOUR_WINDS, 62.62, 59.81, "Alliance")
+	addon:AddTrainer(85910, "Joshua Fuesting", Z.STORMSHIELD, 52.1, 37.6, "Alliance")
 
 	self.InitializeTrainers = nil
 end
