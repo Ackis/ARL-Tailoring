@@ -5160,8 +5160,12 @@ function module:InitializeRecipes()
 	-------------------------------------------------------------------------------
 	-- Hexweave Cloth -- 168835
 	recipe = AddRecipe(168835, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 1, 600, 800, 1000)
+	recipe:SetRecipeItem(114851, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(111556, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("TAILORING_MATERIALS")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382)
 
 	-- Hexweave Embroidery -- 168836
 	recipe = AddRecipe(168836, V.WOD, Q.COMMON)
@@ -5170,9 +5174,53 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(114836, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382)
+
+	-- Hexweave Mantle -- 168837
+	recipe = AddRecipe(168837, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114853, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114809, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382)
+
+	-- Hexweave Cowl -- 168838
+	recipe = AddRecipe(168838, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114854, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114810, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382)
 
 	-- Hexweave Leggings -- 168839
 	recipe = AddRecipe(168839, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Hexweave Gloves -- 168840
+	recipe = AddRecipe(168840, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Hexweave Robe -- 168841
+	recipe = AddRecipe(168841, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Hexweave Bracers -- 168842
+	recipe = AddRecipe(168842, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Hexweave Slippers -- 168843
+	recipe = AddRecipe(168843, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+
+	-- Hexweave Belt -- 168844
+	recipe = AddRecipe(168844, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(0, 0, 0, 0, 0)
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 
