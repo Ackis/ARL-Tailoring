@@ -1607,7 +1607,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(17017, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(16980, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THORIUM_BROTHERHOOD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THORIUM_BROTHERHOOD, REP.HONORED, 12944)
 
 	-- Flarecore Gloves -- 20849
@@ -1616,7 +1616,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(17018, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(16979, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.MAGE, F.PRIEST, F.WARLOCK, F.THORIUM_BROTHERHOOD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.MAGE, F.PRIEST, F.WARLOCK)
 	recipe:AddRepVendor(FAC.THORIUM_BROTHERHOOD, REP.FRIENDLY, 12944)
 
 	-- Green Holiday Shirt -- 21945
@@ -1705,7 +1705,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(19215, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(19047, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WAIST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.TIMBERMAW_HOLD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.TIMBERMAW_HOLD, REP.HONORED, 11557)
 
 	-- Mantle of the Timbermaw -- 23663
@@ -1714,7 +1714,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(19218, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(19050, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.TIMBERMAW_HOLD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.TIMBERMAW_HOLD, REP.REVERED, 11557)
 
 	-- Argent Boots -- 23664
@@ -1723,7 +1723,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(19216, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(19056, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.ARGENT_DAWN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.ARGENT_DAWN, REP.HONORED, 10856, 10857, 11536)
 
 	-- Argent Shoulders -- 23665
@@ -1732,7 +1732,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(19217, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(19059, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.ARGENT_DAWN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.ARGENT_DAWN, REP.REVERED, 10856, 10857, 11536)
 
 	-- Flarecore Robe -- 23666
@@ -1741,7 +1741,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(19219, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(19156, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THORIUM_BROTHERHOOD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THORIUM_BROTHERHOOD, REP.HONORED, 12944)
 
 	-- Flarecore Leggings -- 23667
@@ -1750,7 +1750,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(19220, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(19165, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_LEGS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THORIUM_BROTHERHOOD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THORIUM_BROTHERHOOD, REP.REVERED, 12944)
 
 	-- Bloodvine Vest -- 24091
@@ -1877,7 +1877,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(22310, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(22251, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CENARION_CIRCLE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.CENARION_CIRCLE, REP.FRIENDLY, 15179)
 
 	-- Satchel of Cenarius -- 27725
@@ -1886,7 +1886,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(22312, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(22252, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CENARION_CIRCLE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.CENARION_CIRCLE, REP.REVERED, 15179)
 
 	-- Glacial Gloves -- 28205
@@ -1927,7 +1927,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(22683, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(22660, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BACK")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.CENARION_CIRCLE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.CENARION_CIRCLE, REP.REVERED, 15179)
 
 	-- Sylvan Vest -- 28480
@@ -1936,7 +1936,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(22774, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(22756, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.CENARION_CIRCLE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.CENARION_CIRCLE, REP.REVERED, 15179)
 
 	-- Sylvan Crown -- 28481
@@ -1945,7 +1945,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(22773, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(22757, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HEAD")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.CENARION_CIRCLE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.CENARION_CIRCLE, REP.HONORED, 15179)
 
 	-- Sylvan Shoulders -- 28482
@@ -1954,7 +1954,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(22772, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(22758, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.CENARION_CIRCLE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.CENARION_CIRCLE, REP.FRIENDLY, 15179)
 
 	-------------------------------------------------------------------------------
@@ -2294,7 +2294,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(24292, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(24273, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THE_SCRYERS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_SCRYERS, REP.HONORED, 19331)
 
 	-- Silver Spellthread -- 31431
@@ -2303,7 +2303,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(24293, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(24275, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HEALER, F.CASTER, F.THE_ALDOR)
+	recipe:AddFilters(F.ALLIANCE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ALDOR, REP.HONORED, 19321)
 
 	-- Runic Spellthread -- 31432
@@ -2312,7 +2312,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(24294, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(24274, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THE_SCRYERS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_SCRYERS, REP.EXALTED, 19331)
 
 	-- Golden Spellthread -- 31433
@@ -2321,7 +2321,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(24295, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(24276, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THE_ALDOR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ALDOR, REP.EXALTED, 19321)
 
 	-- Unyielding Bracers -- 31434
@@ -2492,7 +2492,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(24314, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(24270, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.THE_CONSORTIUM)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.THE_CONSORTIUM, REP.HONORED, 20242, 23007)
 
 	-- Netherweave Net -- 31460
@@ -2554,7 +2554,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(30833, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(30831, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BACK")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.LOWER_CITY)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.LOWER_CITY, REP.HONORED, 21655)
 
 	-- Flameheart Bracers -- 37882
@@ -2563,7 +2563,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(30842, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(30837, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WRIST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THE_ALDOR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ALDOR, REP.FRIENDLY, 19321)
 
 	-- Flameheart Gloves -- 37883
@@ -2572,7 +2572,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(30843, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(30838, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THE_ALDOR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ALDOR, REP.HONORED, 19321)
 
 	-- Flameheart Vest -- 37884
@@ -2581,7 +2581,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(30844, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(30839, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.THE_ALDOR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ALDOR, REP.EXALTED, 19321)
 
 	-- Soulguard Slippers -- 40020
@@ -2590,7 +2590,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(32437, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(32391, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ASHTONGUE_DEATHSWORN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.ASHTONGUE_DEATHSWORN, REP.HONORED, 23159)
 
 	-- Soulguard Bracers -- 40021
@@ -2599,7 +2599,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(32438, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(32392, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WRIST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ASHTONGUE_DEATHSWORN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.ASHTONGUE_DEATHSWORN, REP.FRIENDLY, 23159)
 
 	-- Soulguard Leggings -- 40023
@@ -2608,7 +2608,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(32439, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(32389, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_LEGS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ASHTONGUE_DEATHSWORN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.ASHTONGUE_DEATHSWORN, REP.HONORED, 23159)
 
 	-- Soulguard Girdle -- 40024
@@ -2617,7 +2617,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(32440, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(32390, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WAIST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ASHTONGUE_DEATHSWORN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.ASHTONGUE_DEATHSWORN, REP.FRIENDLY, 23159)
 
 	-- Night's End -- 40060
@@ -2626,7 +2626,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(32447, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(32420, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BACK")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.ASHTONGUE_DEATHSWORN)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.ASHTONGUE_DEATHSWORN, REP.HONORED, 23159)
 
 	-- Bracers of Nimble Thought -- 41205
@@ -2736,7 +2736,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(38229, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(38225, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.SPOREGGAR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.SPOREGGAR, REP.REVERED, 18382)
 
 	-- Haliscan Jacket -- 50644
@@ -3044,7 +3044,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42183, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(41597, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK, F.KNIGHTS_OF_THE_EBON_BLADE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.WARLOCK)
 	recipe:AddRepVendor(FAC.KNIGHTS_OF_THE_EBON_BLADE, REP.REVERED, 32538)
 
 	-- Glacial Bag -- 56005
@@ -3053,7 +3053,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42184, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(41600, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.THE_SONS_OF_HODIR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.THE_SONS_OF_HODIR, REP.EXALTED, 32540)
 
 	-- Mysterious Bag -- 56006
@@ -3062,7 +3062,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42185, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(41598, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.THE_WYRMREST_ACCORD)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.THE_WYRMREST_ACCORD, REP.REVERED, 32533)
 
 	-- Frostweave Bag -- 56007
@@ -3087,7 +3087,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42187, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(41602, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.ARGENT_CRUSADE)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.ARGENT_CRUSADE, REP.EXALTED, 30431)
 
 	-- Azure Spellthread -- 56010
@@ -3104,7 +3104,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(42188, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(41604, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.KIRIN_TOR)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.KIRIN_TOR, REP.EXALTED, 32287)
 
 	-- Cloak of the Moon -- 56014
@@ -3421,7 +3421,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(45774, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(45773, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.THE_KALUAK)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.THE_KALUAK, REP.REVERED, 31916, 32763)
 
 	-- Frostguard Drape -- 64729
@@ -3534,7 +3534,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(49953, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(49891, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_LEGS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.THE_ASHEN_VERDICT)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ASHEN_VERDICT, REP.REVERED, 37687)
 
 	-- Deathfrost Boots -- 70551
@@ -3543,7 +3543,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(49954, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(49890, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.THE_ASHEN_VERDICT)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ASHEN_VERDICT, REP.HONORED, 37687)
 
 	-- Lightweave Leggings -- 70552
@@ -3552,7 +3552,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(49955, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(49892, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_LEGS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.THE_ASHEN_VERDICT)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ASHEN_VERDICT, REP.REVERED, 37687)
 
 	-- Sandals of Consecration -- 70553
@@ -3561,7 +3561,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(49956, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(49893, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.THE_ASHEN_VERDICT)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.THE_ASHEN_VERDICT, REP.HONORED, 37687)
 
 	-- Frosty Flying Carpet -- 75597
@@ -4361,7 +4361,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86368, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82437, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.GOLDEN_LOTUS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.GOLDEN_LOTUS, REP.HONORED, 59908)
 
 	-- Spelltwister's Gloves -- 125548
@@ -4370,7 +4370,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86369, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82438, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.GOLDEN_LOTUS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.GOLDEN_LOTUS, REP.HONORED, 59908)
 
 	-- Robes of Creation -- 125549
@@ -4379,7 +4379,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86370, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82439, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.GOLDEN_LOTUS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.GOLDEN_LOTUS, REP.HONORED, 59908)
 
 	-- Gloves of Creation -- 125550
@@ -4388,7 +4388,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86371, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82440, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.GOLDEN_LOTUS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.GOLDEN_LOTUS, REP.HONORED, 59908)
 
 	-- Bolt of Windwool Cloth -- 125551
@@ -4419,7 +4419,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86375, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82444, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER, F.GOLDEN_LOTUS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.GOLDEN_LOTUS, REP.HONORED, 59908)
 
 	-- Greater Cerulean Spellthread -- 125555
@@ -4428,7 +4428,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86376, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82445, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER, F.GOLDEN_LOTUS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
 	recipe:AddRepVendor(FAC.GOLDEN_LOTUS, REP.HONORED, 59908)
 
 	-- Royal Satchel -- 125556
@@ -4437,7 +4437,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(86377, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(82446, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.THE_AUGUST_CELESTIALS)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
 	recipe:AddRepVendor(FAC.THE_AUGUST_CELESTIALS, REP.EXALTED, 64032)
 
 	-- Imperial Silk -- 125557
