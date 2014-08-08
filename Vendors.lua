@@ -67,6 +67,7 @@ function module:InitializeVendors()
 	AddVendor(50433,	L["Aristaleon Sunweaver"],		Z.TWILIGHT_HIGHLANDS,		75.2,	50.1,	"Horde")
 	AddVendor(64051,	L["Esha the Loommaiden"],		Z.SHRINE_OF_TWO_MOONS,		29.8,	54.0,	"Horde")
 	AddVendor(64052,	L["Raishen the Needle"],		Z.SHRINE_OF_SEVEN_STARS,	67.6,	46.2,	"Alliance")
+	AddVendor(77382,	L["Evelyn Deidle"],			Z.LUNARFALL,			 0.0,	 0.0,	"Alliance") -- Alliance Garrison
 
 	self.InitializeVendors = nil
 end
