@@ -30,6 +30,7 @@ function module:InitializeRecipes()
 	local function AddRecipe(spell_id, genesis, quality)
 		return private.addon:AddRecipe(spell_id, constants.PROFESSION_SPELL_IDS.TAILORING, genesis, quality)
 	end
+
 	local recipe
 
 	-------------------------------------------------------------------------------
@@ -5164,8 +5165,8 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(114851, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(111556, "BIND_ON_PICKUP")
 	recipe:SetItemFilterType("TAILORING_MATERIALS")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddVendor(77382)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	-- Hexweave Embroidery -- 168836
 	recipe = AddRecipe(168836, V.WOD, Q.COMMON)
@@ -5174,7 +5175,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(114836, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddVendor(77382)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Mantle -- 168837
 	recipe = AddRecipe(168837, V.WOD, Q.COMMON)
@@ -5182,8 +5183,8 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(114853, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(114809, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddVendor(77382)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Cowl -- 168838
 	recipe = AddRecipe(168838, V.WOD, Q.COMMON)
@@ -5191,68 +5192,166 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(114854, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(114810, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HEAD")
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
-	recipe:AddVendor(77382)
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Leggings -- 168839
 	recipe = AddRecipe(168839, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 701)
+	recipe:SetRecipeItem(114855, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114811, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Gloves -- 168840
 	recipe = AddRecipe(168840, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 701)
+	recipe:SetRecipeItem(114856, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114812, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Robe -- 168841
 	recipe = AddRecipe(168841, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 701)
+	recipe:SetRecipeItem(114857, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114813, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Bracers -- 168842
 	recipe = AddRecipe(168842, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 701)
+	recipe:SetRecipeItem(114858, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114814, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Slippers -- 168843
 	recipe = AddRecipe(168843, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 701)
+	recipe:SetRecipeItem(114859, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114815, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Hexweave Belt -- 168844
 	recipe = AddRecipe(168844, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 701)
+	recipe:SetRecipeItem(114860, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114816, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Powerful Hexweave Cloak -- 168845
 	recipe = AddRecipe(168845, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114861, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114817, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Nimble Hexweave Cloak -- 168846
 	recipe = AddRecipe(168846, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114862, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114818, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
 	-- Brilliant Hexweave Cloak -- 168847
 	recipe = AddRecipe(168847, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114863, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114819, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
 
-	-- Hand Spun Hat -- 168852
+	-- Hexweave Bag -- 168848
+	recipe = AddRecipe(168848, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114864, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114821, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BAG")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
+
+	-- Elekk Plushie -- 168849
+	recipe = AddRecipe(168849, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114865, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(113216, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_MISC")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
+
+	-- Creeping Carpet -- 168850
+	recipe = AddRecipe(168850, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114866, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(115363, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_MISC")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
+
+	-- Sumptuous Cowl -- 168852
 	recipe = AddRecipe(168852, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 600, 600, 600, 600)
+	recipe:SetCraftedItem(114828, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddCustom("DRAENOR_DEFAULT")
 
-	-- Hand Spun Frock -- 168853
+	-- Sumptuous Robes -- 168853
 	recipe = AddRecipe(168853, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
-	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:SetSkillLevels(1, 600, 600, 600, 600)
+	recipe:SetCraftedItem(114829, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddCustom("DRAENOR_DEFAULT")
 
-	-- Hand Spun Pants -- 168854
+	-- Sumptuous Leggings -- 168854
 	recipe = AddRecipe(168854, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(0, 0, 0, 0, 0)
+	recipe:SetSkillLevels(1, 600, 600, 600, 600)
+	recipe:SetCraftedItem(114831, "BIND_ON_PICKUP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddCustom("DRAENOR_DEFAULT")
+
+	-- Hexweave Essence -- 168855
+	recipe = AddRecipe(168855, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114871, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114837, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
+
+	-- Greater Hexweave Essence -- 168856
+	recipe = AddRecipe(168856, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 700, 700)
+	recipe:SetRecipeItem(114872, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(114838, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE)
+	recipe:AddVendor(77382, 79864, 87049, 87543)
+
+	-- Secrets of Draenor Tailoring -- 176058
+	recipe = AddRecipe(176058, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 600, 600, 650, 700)
+	recipe:SetCraftedItem(118722, "BIND_ON_PICKIP")
+	recipe:SetItemFilterType("TAILORING_MISC")
+	recipe:AddFilters(F.ALLIANCE, F.HORDE, F.MISC1)
+	recipe:AddCustom("DRAENOR_DEFAULT")
 
 	self.InitializeRecipes = nil
 end
