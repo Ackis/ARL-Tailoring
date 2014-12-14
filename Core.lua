@@ -19,23 +19,6 @@ private.addon = addon
 
 local module = addon:NewModule(MODULE_NAME)
 
-module.ITEM_FILTER_TYPES = {
-	TAILORING_BACK = true,
-	TAILORING_BAG = true,
-	TAILORING_CHEST = true,
-	TAILORING_FEET = true,
-	TAILORING_HANDS = true,
-	TAILORING_HEAD = true,
-	TAILORING_ITEM_ENHANCEMENT = true,
-	TAILORING_LEGS = true,
-	TAILORING_MATERIALS = true,
-	TAILORING_MISC = true,
-	TAILORING_SHIRT = true,
-	TAILORING_SHOULDER = true,
-	TAILORING_WAIST = true,
-	TAILORING_WRIST = true,
-}
-
 function module:OnInitialize()
 	local defaults = {
 		profile = {
