@@ -5248,5 +5248,21 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("TAILORING_MATERIALS")
 	recipe:AddVendor(91025, 91034)
 
+	-- Mighty Hexweave Essence -- 187492
+	recipe = AddRecipe(187492, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127724, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127715, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(91025, 91034)
+
+	-- Savage Hexweave Essence -- 187516
+	recipe = AddRecipe(187516, V.WOD, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 702, 705)
+	recipe:SetRecipeItem(127742, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(127733, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
+	recipe:AddVendor(91025, 91034)
+
 	self.InitializeRecipes = nil
 end
