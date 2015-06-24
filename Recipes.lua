@@ -36,13 +36,13 @@ module.Recipes = {}
 function module:InitializeRecipes()
 	local function AddRecipe(spellID, expansionID, quality)
 		return addon:AddRecipe(module, {
-			acquire_data = {},
-			flags = {},
-			genesis = constants.GAME_VERSION_NAMES[expansionID],
-			name = _G.GetSpellInfo(spellID),
-			profession = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.TAILORING),
-			quality = quality,
-			_spell_id = spellID,
+			_acquireTypeData = {},
+			_bitflags = {},
+			_expansionID = expansionID,
+			_localizedProfessionName = _G.GetSpellInfo(constants.PROFESSION_SPELL_IDS.TAILORING),
+			_localizedName = _G.GetSpellInfo(spellID),
+			_qualityID = quality,
+			_spellID = spellID,
 		})
 	end
 
@@ -3510,7 +3510,7 @@ function module:InitializeRecipes()
 	-- Master's Spellthread -- 75154
 	recipe = AddRecipe(75154, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetPreviousRankID(56034)
+	recipe:SetPreviousRankSpellID(56034)
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -3518,7 +3518,7 @@ function module:InitializeRecipes()
 	-- Sanctified Spellthread -- 75155
 	recipe = AddRecipe(75155, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetPreviousRankID(56039)
+	recipe:SetPreviousRankSpellID(56039)
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -4000,7 +4000,7 @@ function module:InitializeRecipes()
 	-- Master's Spellthread -- 125496
 	recipe = AddRecipe(125496, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 550, 550, 550)
-	recipe:SetPreviousRankID(75154)
+	recipe:SetPreviousRankSpellID(75154)
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
@@ -4008,7 +4008,7 @@ function module:InitializeRecipes()
 	-- Sanctified Spellthread -- 125497
 	recipe = AddRecipe(125497, V.MOP, Q.COMMON)
 	recipe:SetSkillLevels(550, 550, 550, 550, 550)
-	recipe:SetPreviousRankID(75155)
+	recipe:SetPreviousRankSpellID(75155)
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.HEALER)
 	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
