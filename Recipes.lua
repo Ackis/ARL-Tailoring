@@ -886,7 +886,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(10002, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_LEGS")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
 
 	-- Black Mageweave Gloves -- 12053
 	recipe = AddRecipe(12053, V.ORIG, Q.COMMON)
@@ -902,7 +902,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(10004, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
 
 	-- Red Mageweave Vest -- 12056
 	recipe = AddRecipe(12056, V.ORIG, Q.UNCOMMON)
@@ -992,7 +992,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(10023, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
 
 	-- Black Mageweave Headband -- 12072
 	recipe = AddRecipe(12072, V.ORIG, Q.COMMON)
@@ -1032,7 +1032,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(10028, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
 
 	-- Simple Black Dress -- 12077
 	recipe = AddRecipe(12077, V.ORIG, Q.COMMON)
@@ -1080,7 +1080,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(10031, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 44783, 45559, 57405, 85910, 86004)
 
 	-- Red Mageweave Headband -- 12084
 	recipe = AddRecipe(12084, V.ORIG, Q.UNCOMMON)
@@ -3948,7 +3948,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(75065, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BACK")
 	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 11052, 11557, 16640, 17487, 18772, 33580, 45559, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 11052, 11557, 16640, 17487, 18772, 28699, 33580, 45559, 57405, 85910, 86004)
 
 	-- Luxurious Silk Gem Bag -- 100585
 	recipe = AddRecipe(100585, V.CATA, Q.RARE)
@@ -4362,7 +4362,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(92726, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
-	recipe:AddTrainer(1346, 3004, 3363, 3523, 4159, 4578, 5153, 11052, 11557, 16640, 17487, 18772, 33580, 57405, 85910, 86004)
+	recipe:AddTrainer(1346, 3004, 3363, 3523, 4159, 4578, 5153, 11052, 11557, 16640, 17487, 18772, 28699, 33580, 57405, 85910, 86004)
 
 	-- Crafted Dreadful Gladiator's Cape of Cruelty -- 137907
 	recipe = AddRecipe(137907, V.MOP, Q.COMMON)
