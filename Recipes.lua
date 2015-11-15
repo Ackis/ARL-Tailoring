@@ -1186,7 +1186,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(14468, "BIND_ON_EQUIP")
 	recipe:SetCraftedItem(14046, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddVendor(11189)
+	recipe:AddLimitedVendor(11189, 1)
 
 	-- Runecloth Robe -- 18406
 	recipe = AddRecipe(18406, V.ORIG, Q.COMMON)
