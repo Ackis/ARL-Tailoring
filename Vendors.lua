@@ -37,7 +37,7 @@ function module:InitializeVendors()
 
 	AddVendor(1250,		L["Drake Lindgren"],			Z.ELWYNN_FOREST,		83.3,	66.7,	"Alliance")
 	AddVendor(1347,		L["Alexandra Bolero"],			Z.STORMWIND_CITY,		53.3,	81.7,	"Alliance")
-	AddVendor(1454,		L["Jennabink Powerseam"],		Z.WETLANDS,			 8.1,	55.9,	"Alliance")
+	AddVendor(1454,		L["Jennabink Powerseam"],		Z.WETLANDS,			10.0,	59.0,	"Alliance")
 	AddVendor(1474,		L["Rann Flamespinner"],			Z.LOCH_MODAN,			36.0,	46.0,	"Alliance")
 	AddVendor(2394,		L["Mallen Swain"],			Z.HILLSBRAD_FOOTHILLS,		58.1,	47.9,	"Horde")
 	AddVendor(2663,		L["Narkk"],				Z.THE_CAPE_OF_STRANGLETHORN,	42.7,	69.2,	"Neutral")
