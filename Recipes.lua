@@ -5193,26 +5193,12 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(77382, 79864, 87049, 87543)
 
-	-- Greater Hexweave Essence -- 168856
-	recipe = AddRecipe(168856, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 700, 700)
-	recipe:SetCraftedItem(114838, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:Retire()
-
 	-- Secrets of Draenor Tailoring -- 176058
 	recipe = AddRecipe(176058, V.WOD, Q.COMMON)
 	recipe:SetSkillLevels(1, 1, 600, 650, 700)
 	recipe:SetCraftedItem(118722, "BIND_ON_PICKIP")
 	recipe:SetItemFilterType("TAILORING_MISC")
 	recipe:AddCustom("DRAENOR_DEFAULT")
-
-	-- Powerful Hexweave Essence -- 181418
-	recipe = AddRecipe(181418, V.WOD, Q.COMMON)
-	recipe:SetSkillLevels(1, 1, 700, 702, 705)
-	recipe:SetCraftedItem(122540, "BIND_ON_EQUIP")
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:Retire()
 
 	-- Primal Weaving -- 182123
 	recipe = AddRecipe(182123, V.WOD, Q.COMMON)
