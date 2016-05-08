@@ -69,10 +69,10 @@ function module:InitializeVendors()
 	AddVendor(22208,	L["Nasmara Moonsong"],			Z.SHATTRATH_CITY,		66.0,	69.0,	"Neutral")
 	AddVendor(22212,	L["Andrion Darkspinner"],		Z.SHATTRATH_CITY,		66.0,	67.8,	"Neutral")
 	AddVendor(22213,	L["Gidge Spellweaver"],			Z.SHATTRATH_CITY,		66.0,	67.9,	"Neutral")
-	AddVendor(29510,	L["Linna Bruder"],			Z.DALARAN,			34.6,	34.5,	"Neutral")
-	AddVendor(29511,	L["Lalla Brightweave"],			Z.DALARAN,			36.5,	33.5,	"Neutral")
-	AddVendor(29512,	L["Ainderu Summerleaf"],		Z.DALARAN,			36.5,	34.0,	"Neutral")
-	AddVendor(40160,	L["Frozo the Renowned"],		Z.DALARAN,			41.0,	28.5,	"Neutral")
+	AddVendor(29510,	L["Linna Bruder"],			Z.DALARAN_NORTHREND,		34.6,	34.5,	"Neutral")
+	AddVendor(29511,	L["Lalla Brightweave"],			Z.DALARAN_NORTHREND,		36.5,	33.5,	"Neutral")
+	AddVendor(29512,	L["Ainderu Summerleaf"],		Z.DALARAN_NORTHREND,		36.5,	34.0,	"Neutral")
+	AddVendor(40160,	L["Frozo the Renowned"],		Z.DALARAN_NORTHREND,		41.0,	28.5,	"Neutral")
 	AddVendor(40572,	L["Haughty Modiste"],			Z.TANARIS,			50.7,	28.6,	"Neutral")
 	AddVendor(45558,	L["Lizna Goldweaver"],			Z.ORGRIMMAR,			41.3,	79.2,	"Horde")
 	AddVendor(50386,	L["Sal Ferraga"],			Z.TWILIGHT_HIGHLANDS,		78.6,	76.9,	"Alliance")
@@ -85,6 +85,7 @@ function module:InitializeVendors()
 	AddVendor(87543,	L["Petir Starocean"],			Z.WARSPEAR,			58.8,	42.8,	"Horde") -- Horde Ashran
 	AddVendor(91025,	L["Dorothy \"Two\""],			Z.LUNARFALL,			34.6,	33.0,	"Alliance")
 	AddVendor(91034,	L["Calvo Klyne"],			Z.FROSTWALL,			40.8,	54.8,	"Horde")
+	AddVendor(93524,	L["Lalla Brightweave"],			Z.DALARAN_BROKENISLES,		36.1,	33.1,	"Neutral")
 
 	self.InitializeVendors = nil
 end
