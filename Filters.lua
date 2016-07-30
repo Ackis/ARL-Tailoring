@@ -37,6 +37,7 @@ module.ITEM_FILTER_TYPES = {
 	TAILORING_MISC = true,
 	TAILORING_SHIRT = true,
 	TAILORING_SHOULDER = true,
+	TAILORING_TRANSMOG = true,
 	TAILORING_WAIST = true,
 	TAILORING_WRIST = true,
 }
@@ -115,6 +116,7 @@ function module:InitializeItemFilters(parent_panel)
 		tailoring_item_enhancement	= { tt = L["FILTER_DESC_FORMAT"]:format(L["Item Enhancement"]),	text = L["Item Enhancement"],	row = 1, col = 2 },
 		tailoring_materials		= { tt = L["FILTER_DESC_FORMAT"]:format(L["Materials"]),	text = L["Materials"],		row = 2, col = 1 },
 		tailoring_misc			= { tt = L["FILTER_DESC_FORMAT"]:format(_G.MISCELLANEOUS),	text = _G.MISCELLANEOUS,	row = 2, col = 2 },
+		tailoring_transmog		= { tt = L["FILTER_DESC_FORMAT"]:format(_G.TRANSMOGRIFY),	text = _G.TRANSMOGRIFY,		row = 3, col = 1 },
 	}
 
 	general_toggle:SetScript("OnClick", function(self, button)

@@ -3726,6 +3726,7 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(54451, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HEAD")
 	recipe:AddMobDrop(50005, 50009, 50056, 50061, 50063, 50089)
+
 	-- Vicious Fireweave Bracers -- 75290
 	recipe = AddRecipe(75290, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 505, 510, 515)
@@ -5230,6 +5231,34 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(127733, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddVendor(91025, 91034)
+
+	-------------------------------------------------------------------------------
+	-- Legion
+	-------------------------------------------------------------------------------
+
+	-- Clothes Chest: Dalaran Citizens -- 213035
+	recipe = AddRecipe(213035, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetRecipeItem(138016, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(137553, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_TRANSMOG")
+	recipe:AddVendor(97362)
+
+	-- Clothes Chest: Karazhan Opera House -- 213036
+	recipe = AddRecipe(213036, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetRecipeItem(138017, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(137557, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_TRANSMOG")
+	recipe:AddMobDrop(17521)
+
+	-- Clothes Chest: Molten Core -- 213037
+	recipe = AddRecipe(213037, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetRecipeItem(138018, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(137558, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_TRANSMOG")
+	recipe:AddMobDrop(11502)
 
 	self.InitializeRecipes = nil
 end
