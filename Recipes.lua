@@ -3719,6 +3719,13 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("TAILORING_CHEST")
 	recipe:AddVendor(1347, 3005, 3364, 4168, 4577, 5154, 16638, 16767, 45558, 50386, 50433)
 
+	-- High Society Top Hat -- 75289
+	recipe = AddRecipe(75289, V.CATA, Q.RARE)
+	recipe:SetSkillLevels(500, 500, 530, 535, 540)
+	recipe:SetRecipeItem(67541, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(54451, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddMobDrop(50005, 50009, 50056, 50061, 50063, 50089)
 	-- Vicious Fireweave Bracers -- 75290
 	recipe = AddRecipe(75290, V.CATA, Q.COMMON)
 	recipe:SetSkillLevels(500, 500, 505, 510, 515)
