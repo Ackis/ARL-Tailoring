@@ -3149,20 +3149,6 @@ function module:InitializeRecipes()
 	recipe:AddFilters(F.CASTER, F.HEALER)
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3484, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 28699, 33580, 33613, 33636, 33684, 44783, 45559, 57405, 85910, 86004)
 
-	-- Master's Spellthread -- 56034
-	recipe = AddRecipe(56034, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(405, 405, 405, 405, 405)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 33580, 33636, 33684, 44783, 45559, 57405)
-
-	-- Sanctified Spellthread -- 56039
-	recipe = AddRecipe(56039, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(405, 405, 405, 405, 405)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddTrainer(1346, 2399, 3004, 3363, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 33580, 33636, 33684, 44783, 45559, 57405)
-
 	-- Frostsavage Belt -- 59582
 	recipe = AddRecipe(59582, V.WOTLK, Q.COMMON)
 	recipe:SetSkillLevels(415, 415, 425, 435, 445)
@@ -3506,20 +3492,6 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(54440, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_MATERIALS")
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3484, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 33684, 44783, 45559, 57405, 85910, 86004)
-
-	-- Master's Spellthread -- 75154
-	recipe = AddRecipe(75154, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
-
-	-- Sanctified Spellthread -- 75155
-	recipe = AddRecipe(75155, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(500, 500, 500, 500, 500)
-	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
-	recipe:AddFilters(F.CASTER, F.HEALER)
-	recipe:AddDiscovery("DISCOVERY_AUTOLEARN")
 
 	-- Embersilk Net -- 75247
 	recipe = AddRecipe(75247, V.CATA, Q.COMMON)
