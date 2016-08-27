@@ -71,6 +71,8 @@ function module:InitializeTrainers()
 	AddTrainer(57405, "Silkmaster Tsai", 		Z.VALLEY_OF_THE_FOUR_WINDS, 	62.6, 59.8, "Alliance")
 	AddTrainer(85910, "Joshua Fuesting", 		Z.STORMSHIELD, 			51.9, 37.4, "Alliance")
 	AddTrainer(86004, "Saesha Silverblood", 	Z.WARSPEAR, 			59.2, 41.4, "Horde")
+	AddTrainer(93525, "Ainderu Summerleaf",		Z.DALARAN_BROKENISLES,		36.2, 33.8, "Neutral")
+	AddTrainer(93542, "Tanithria",			Z.DALARAN_BROKENISLES,		35.8, 33.4, "Neutral")
 
 	self.InitializeTrainers = nil
 end
