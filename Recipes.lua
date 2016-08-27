@@ -5200,8 +5200,475 @@ function module:InitializeRecipes()
 	recipe:AddVendor(91025, 91034)
 
 	-------------------------------------------------------------------------------
-	-- Legion
+	-- Legion.
 	-------------------------------------------------------------------------------
+	-- Silkweave Bracers -- 185918
+	recipe = AddRecipe(185918, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126994, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddQuest(38949)
+
+	-- Silkweave Cinch -- 185919
+	recipe = AddRecipe(185919, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126993, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddQuest(38945)
+
+	-- Silkweave Epaulets -- 185920
+	recipe = AddRecipe(185920, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126992, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddQuest(38945)
+
+	-- Silkweave Pantaloons -- 185921
+	recipe = AddRecipe(185921, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126991, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddQuest(38957)
+
+	-- Silkweave Hood -- 185922
+	recipe = AddRecipe(185922, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126990, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddQuest(38963)
+
+	-- Silkweave Gloves -- 185923
+	recipe = AddRecipe(185923, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126989, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddQuest(38961)
+
+	-- Silkweave Slippers -- 185924
+	recipe = AddRecipe(185924, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126988, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddQuest(38958)
+
+	-- Silkweave Robe -- 185925
+	recipe = AddRecipe(185925, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 710, 720)
+	recipe:SetCraftedItem(126987, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddQuest(38949)
+
+	-- Imbued Silkweave Bracers -- 185926
+	recipe = AddRecipe(185926, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127002, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddQuest(38970)
+
+	-- Imbued Silkweave Cinch -- 185927
+	recipe = AddRecipe(185927, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127001, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddVendor(93974)
+
+	-- Imbued Silkweave Epaulets -- 185928
+	recipe = AddRecipe(185928, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127000, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddVendor(93973)
+
+	-- Imbued Silkweave Pantaloons -- 185929
+	recipe = AddRecipe(185929, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126999, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddQuest(38974)
+
+	-- Imbued Silkweave Hood -- 185930
+	recipe = AddRecipe(185930, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126998, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddVendor(93979)
+
+	-- Imbued Silkweave Gloves -- 185931
+	recipe = AddRecipe(185931, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126997, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddQuest(38971)
+
+	-- Imbued Silkweave Slippers -- 185932
+	recipe = AddRecipe(185932, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126996, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddVendor(93975)
+
+	-- Imbued Silkweave Robe -- 185933
+	recipe = AddRecipe(185933, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126995, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddQuest(38975)
+
+	-- Silkweave Bracers -- 185934
+	recipe = AddRecipe(185934, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126994, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddVendor(93524)
+
+	-- Silkweave Cinch -- 185935
+	recipe = AddRecipe(185935, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126993, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddVendor(107760)
+
+	-- Silkweave Epaulets -- 185936
+	recipe = AddRecipe(185936, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126992, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddVendor(93524)
+
+	-- Silkweave Pantaloons -- 185937
+	recipe = AddRecipe(185937, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126991, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddQuest(38966)
+
+	-- Silkweave Hood -- 185938
+	recipe = AddRecipe(185938, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126990, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddQuest(38966)
+
+	-- Silkweave Gloves -- 185939
+	recipe = AddRecipe(185939, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126989, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddQuest(38966)
+
+	-- Silkweave Slippers -- 185940
+	recipe = AddRecipe(185940, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126988, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddQuest(38966)
+
+	-- Silkweave Robe -- 185941
+	recipe = AddRecipe(185941, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 720, 730, 740)
+	recipe:SetCraftedItem(126987, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddVendor(93524)
+
+	-- Silkweave Bracers -- 185942
+	recipe = AddRecipe(185942, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126994, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddQuest(41648)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Silkweave Cinch -- 185943
+	recipe = AddRecipe(185943, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126993, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddVendor(107760)
+
+	-- Silkweave Epaulets -- 185944
+	recipe = AddRecipe(185944, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126992, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddQuest(41645)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Silkweave Robe -- 185945
+	recipe = AddRecipe(185945, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126987, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddQuest(41647)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Imbued Silkweave Bracers -- 185946
+	recipe = AddRecipe(185946, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127002, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Cinch -- 185947
+	recipe = AddRecipe(185947, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127001, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddVendor(107760)
+
+	-- Imbued Silkweave Epaulets -- 185948
+	recipe = AddRecipe(185948, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127000, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Pantaloons -- 185949
+	recipe = AddRecipe(185949, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(126999, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Hood -- 185950
+	recipe = AddRecipe(185950, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(126998, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Gloves -- 185951
+	recipe = AddRecipe(185951, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(126997, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Slippers -- 185952
+	recipe = AddRecipe(185952, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(126996, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Robe -- 185953
+	recipe = AddRecipe(185953, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(126995, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_CHEST")
+	recipe:AddVendor(93524)
+
+	-- Imbued Silkweave Bracers -- 185954
+	recipe = AddRecipe(185954, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127002, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WRIST")
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140)
+
+	-- Imbued Silkweave Cinch -- 185955 -- Needs updating
+	recipe = AddRecipe(185955, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(127001, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_WAIST")
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140)
+
+	-- Imbued Silkweave Epaulets -- 185956
+	recipe = AddRecipe(185956, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(127000, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddCustom("RATED_PVP")
+
+	-- Imbued Silkweave Pantaloons -- 185957
+	recipe = AddRecipe(185957, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(126999, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140)
+
+	-- Imbued Silkweave Hood -- 185958
+	recipe = AddRecipe(185958, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(126998, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddRepVendor(FAC.COURT_OF_FARONDIS, REP.EXALTED, 107376)
+
+	-- Imbued Silkweave Gloves -- 185959
+	recipe = AddRecipe(185959, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(126997, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddRepVendor(FAC.COURT_OF_FARONDIS, REP.EXALTED, 107376)
+
+	-- Imbued Silkweave Slippers -- 185960
+	recipe = AddRecipe(185960, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(126996, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddRepVendor(FAC.THE_NIGHTFALLEN, REP.EXALTED, 97140)
+
+	-- Imbued Silkweave Robe -- 185961
+	recipe = AddRecipe(185961, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(126995, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddRepVendor(FAC.COURT_OF_FARONDIS, REP.EXALTED, 107376)
+
+	-- Imbued Silkweave -- 185962
+	recipe = AddRecipe(185962, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 747, 755)
+	recipe:SetCraftedItem(127004, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_MATERIALS")
+	recipe:AddQuest(38970)
+
+	-- Silkweave Shade -- 186091
+	recipe = AddRecipe(186091, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(127031, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddTrainer(93525, 93542)
+
+	-- Silkweave Flourish -- 186094
+	recipe = AddRecipe(186094, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(127032, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddTrainer(93525, 93542)
+
+	-- Silkweave Cover -- 186097
+	recipe = AddRecipe(186097, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(127016, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddTrainer(93525, 93542)
+
+	-- Silkweave Drape -- 186100
+	recipe = AddRecipe(186100, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(127017, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddTrainer(93525, 93542)
+
+	-- Imbued Silkweave Shade -- 186106
+	recipe = AddRecipe(186106, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127033, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddVendor(93971)
+
+	-- Imbued Silkweave Shade -- 186107
+	recipe = AddRecipe(186107, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127033, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Shade -- 186108
+	recipe = AddRecipe(186108, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(127033, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Flourish -- 186109
+	recipe = AddRecipe(186109, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127034, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddVendor(93971)
+
+	-- Imbued Silkweave Flourish -- 186110
+	recipe = AddRecipe(186110, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127034, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Flourish -- 186111
+	recipe = AddRecipe(186111, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(127034, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Cover -- 186112
+	recipe = AddRecipe(186112, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127019, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddVendor(93971)
+
+	-- Imbued Silkweave Cover -- 186113
+	recipe = AddRecipe(186113, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127019, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Cover -- 186114
+	recipe = AddRecipe(186114, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(127019, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Drape -- 186115
+	recipe = AddRecipe(186115, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(127020, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddVendor(93971)
+
+	-- Imbued Silkweave Drape -- 186116
+	recipe = AddRecipe(186116, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 760, 770, 780)
+	recipe:SetCraftedItem(127020, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Imbued Silkweave Drape -- 186117
+	recipe = AddRecipe(186117, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetCraftedItem(127020, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BACK")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
+
+	-- Silkweave Satchel -- 186388
+	recipe = AddRecipe(186388, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 700, 720, 740)
+	recipe:SetCraftedItem(127035, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BAG")
+	recipe:AddQuest(38955)
+
+	-- Silkweave Gloves -- 208350
+	recipe = AddRecipe(208350, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126989, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HANDS")
+	recipe:AddQuest(41646)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Silkweave Hood -- 208351
+	recipe = AddRecipe(208351, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126990, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_HEAD")
+	recipe:AddQuest(41650)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Silkweave Slippers -- 208352
+	recipe = AddRecipe(208352, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126988, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_FEET")
+	recipe:AddQuest(41649)
+	recipe:AddCustom("WORLD_QUEST")
+
+	-- Silkweave Pantaloons -- 208353
+	recipe = AddRecipe(208353, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 740, 750, 760)
+	recipe:SetCraftedItem(126991, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddRepVendor(FAC.COURT_OF_FARONDIS, REP.HONORED, 107376)
 
 	-- Clothes Chest: Dalaran Citizens -- 213035
 	recipe = AddRecipe(213035, V.LEGION, Q.COMMON)
@@ -5226,6 +5693,13 @@ function module:InitializeRecipes()
 	recipe:SetCraftedItem(137558, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_TRANSMOG")
 	recipe:AddMobDrop(11502)
+
+	-- Bloodtotem Saddle Blanket -- 220511
+	recipe = AddRecipe(220511, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 800, 800, 800)
+	recipe:SetCraftedItem(139503, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_MISC")
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
 	self.InitializeRecipes = nil
 end
