@@ -5760,7 +5760,7 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(142077, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(142075, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_BAG")
-	recipe:AddWorldDrop(F.BROKEN_ISLES)
+	recipe:AddWorldDrop(Z.BROKEN_ISLES)
 
 	-- Imbued Silkweave Bag -- 229045
 	recipe = AddRecipe(229045, V.LEGION, Q.COMMON)
