@@ -5746,5 +5746,29 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("TAILORING_MISC")
 	recipe:AddWorldDrop(Z.HIGHMOUNTAIN)
 
+	-- Imbued Silkweave Bag -- 229041
+	recipe = AddRecipe(229041, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(142076, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142075, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BAG")
+	recipe:AddQuest(44741)
+
+	-- Imbued Silkweave Bag -- 229043
+	recipe = AddRecipe(229043, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(142077, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142075, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BAG")
+	recipe:AddWorldDrop(F.BROKEN_ISLES)
+
+	-- Imbued Silkweave Bag -- 229045
+	recipe = AddRecipe(229045, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 780, 790, 800)
+	recipe:SetRecipeItem(142078, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(142075, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_BAG")
+	recipe:AddMobDrop(103758)
+
 	self.InitializeRecipes = nil
 end
