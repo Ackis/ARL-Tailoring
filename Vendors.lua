@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
--- Localized Lua globals.
--------------------------------------------------------------------------------
-local _G = getfenv(0)
-
--------------------------------------------------------------------------------
 -- Module namespace.
 -------------------------------------------------------------------------------
 local FOLDER_NAME, private = ...
@@ -15,7 +10,7 @@ end
 
 local constants = addon.constants
 local module = addon:GetModule(private.module_name)
-local L = _G.LibStub("AceLocale-3.0"):GetLocale(addon.constants.addon_name)
+local L = _G.LibStub("AceLocale-3.0"):GetLocale(constants.addon_name)
 
 local Z = constants.ZONE_NAMES
 
