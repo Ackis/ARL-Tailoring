@@ -44,7 +44,7 @@ function module:InitializeQuests()
 	AddQuest(38975,	Z.SURAMAR,			40.2,	69.4,	"Neutral") --Leyweaver Mithrogane
 	AddQuest(41645,	Z.AZSUNA,			46.8,	41.4,	"Neutral")
 	AddQuest(41646,	Z.VALSHARAH,			54.6,	73.2,	"Neutral")
-	AddQuest(41647,	Z.HIGHMOUNTAIN,			0.0,	0.0,	"Neutral") --Needs updating
+	AddQuest(41647,	Z.THUNDER_TOTEM,		38.4,	45.8,	"Neutral")
 	AddQuest(41648,	Z.STORMHEIM,			60.2,	51.2,	"Neutral")
 	AddQuest(41649,	Z.SURAMAR,			36.8,	46.6,	"Neutral")
 	AddQuest(41650,	Z.DALARAN_BROKENISLES,		33.4,	48.0,	"Neutral")

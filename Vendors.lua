@@ -82,8 +82,8 @@ function module:InitializeVendors()
 	AddVendor(91034,	L["Calvo Klyne"],			Z.FROSTWALL,				40.8,	54.8,	"Horde")
 	AddVendor(93524,	L["Lalla Brightweave"],			Z.DALARAN_BROKENISLES,			36.1,	33.1,	"Neutral")
 	AddVendor(93971,	L["Leyweaver Inondra"],			Z.SURAMAR,				40.2,	69.6,	"Neutral")
-	AddVendor(93973,	L["Leyweaver Phaxondus"],		Z.AZSUNA,				0,	0,	"Neutral") --Needs updating
-	AddVendor(93974,	L["Leyweaver Erenyi"],			Z.VALSHARAH,				0,	0,	"Neutral") --Needs updating
+	AddVendor(93973,	L["Leyweaver Phaxondus"],		Z.AZSUNA,				29.0,	46.0,	"Neutral")
+	AddVendor(93974,	L["Leyweaver Erenyi"],			Z.VALSHARAH,				70.4,	46.6,	"Neutral")
 	AddVendor(93975,	L["Leyweaver Yaphisteia"],		Z.HIGHMOUNTAIN,				29.5,	26.3,	"Neutral")
 	AddVendor(93979,	L["Leyweaver Jorjana"],			Z.SURAMAR,				49.4,	75.8,	"Neutral")
 
