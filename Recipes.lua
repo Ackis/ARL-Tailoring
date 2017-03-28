@@ -5778,5 +5778,11 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("TAILORING_BAG")
 	recipe:AddMobDrop(103758)
 
+	-- Celumbra, the Night's Dichotomy -- 239412 -- Needs updating
+	recipe = AddRecipe(239412, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(800, 800, 800, 805, 810)
+	recipe:SetCraftedItem(146666, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_SHOULDER")
+
 	self.InitializeRecipes = nil
 end
