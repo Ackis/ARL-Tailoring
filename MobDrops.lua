@@ -56,6 +56,7 @@ function module:InitializeMobDrops()
 	AddMob(20135,	L["Sunfury Arch Mage"],			Z.NETHERSTORM,			46.5, 81.0)
 	AddMob(20869,	L["Arcatraz Sentinel"],			Z.THE_ARCATRAZ)
 	AddMob(20885,	BN.DALLIAH_THE_DOOMSAYER,		Z.THE_ARCATRAZ)
+	AddMob(124393,	BN.PORTAL_KEEPER_HASABEL,		Z.ANTORUS__THE_BURNING_THRONE)
 
 	self.InitializeMobDrops = nil
 end

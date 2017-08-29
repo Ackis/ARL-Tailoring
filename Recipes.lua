@@ -5778,11 +5778,36 @@ function module:InitializeRecipes()
 	recipe:SetItemFilterType("TAILORING_BAG")
 	recipe:AddMobDrop(103758)
 
-	-- Celumbra, the Night's Dichotomy -- 239412 -- Needs updating
+	-- Celumbra, the Night's Dichotomy -- 239412
 	recipe = AddRecipe(239412, V.LEGION, Q.COMMON)
 	recipe:SetSkillLevels(800, 800, 800, 805, 810)
 	recipe:SetCraftedItem(146666, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
+	recipe:AddTrainer(1103, 1346, 2627, 3004, 3363, 4159, 4576, 5153, 9584, 11557, 16366, 16640, 17487, 26969, 28699, 33613, 33684, 45559, 57405,  85910, 86004)
+
+	-- Lightweave Breeches -- 247807
+	recipe = AddRecipe(247807, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151746, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151571, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddQuest(48074)
+
+	-- Lightweave Breeches -- 247808
+	recipe = AddRecipe(247808, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151747, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151571, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddRepVendor(FAC.ARMY_OF_THE_LIGHT, REP.REVERED, 127120)
+
+	-- Lightweave Breeches -- 247809
+	recipe = AddRecipe(247809, V.LEGION, Q.COMMON)
+	recipe:SetSkillLevels(1, 1, 790, 795, 800)
+	recipe:SetRecipeItem(151748, "BIND_ON_PICKUP")
+	recipe:SetCraftedItem(151571, "BIND_ON_EQUIP")
+	recipe:SetItemFilterType("TAILORING_LEGS")
+	recipe:AddMobDrop(124393)
 
 	self.InitializeRecipes = nil
 end
