@@ -2670,14 +2670,14 @@ function module:InitializeRecipes()
 	-- ----------------------------------------------------------------------------
 	-- Frostweave Net -- 55898
 	recipe = AddRecipe(55898, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(360, 360, 370, 375, 380)
+	recipe:SetSkillLevels(285, 285, 295, 300, 305)
 	recipe:SetCraftedItem(41509, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_MISC")
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3484, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 28699, 33580, 33613, 33636, 33684, 44783, 45559, 57405, 85910, 86004, 93525, 93542)
 
 	-- Bolt of Frostweave -- 55899
 	recipe = AddRecipe(55899, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 370, 372, 375)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(41510, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_MATERIALS")
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3484, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 26964, 26969, 27001, 28699, 33580, 33613, 33636, 33684, 44783, 45559, 57405, 85910, 86004, 93525, 93542)
@@ -2699,7 +2699,7 @@ function module:InitializeRecipes()
 
 	-- Frostwoven Shoulders -- 55902
 	recipe = AddRecipe(55902, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 360, 370, 380)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(41513, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2707,7 +2707,7 @@ function module:InitializeRecipes()
 
 	-- Frostwoven Robe -- 55903
 	recipe = AddRecipe(55903, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(360, 360, 370, 380, 390)
+	recipe:SetSkillLevels(285, 285, 295, 300, 305)
 	recipe:SetCraftedItem(41515, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_CHEST")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2715,7 +2715,7 @@ function module:InitializeRecipes()
 
 	-- Frostwoven Gloves -- 55904
 	recipe = AddRecipe(55904, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(360, 360, 370, 380, 390)
+	recipe:SetSkillLevels(285, 285, 295, 300, 305)
 	recipe:SetCraftedItem(44211, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_HANDS")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2723,7 +2723,7 @@ function module:InitializeRecipes()
 
 	-- Frostwoven Boots -- 55906
 	recipe = AddRecipe(55906, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(375, 375, 385, 395, 405)
+	recipe:SetSkillLevels(300, 300, 310, 315, 320)
 	recipe:SetCraftedItem(41520, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -2739,7 +2739,7 @@ function module:InitializeRecipes()
 
 	-- Frostwoven Belt -- 55908
 	recipe = AddRecipe(55908, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(370, 370, 380, 390, 400)
+	recipe:SetSkillLevels(295, 295, 305, 310, 315)
 	recipe:SetCraftedItem(41522, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WAIST")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -3137,7 +3137,7 @@ function module:InitializeRecipes()
 
 	-- Frostwoven Wristwraps -- 56031
 	recipe = AddRecipe(56031, V.WOTLK, Q.COMMON)
-	recipe:SetSkillLevels(350, 350, 360, 370, 380)
+	recipe:SetSkillLevels(275, 275, 285, 290, 295)
 	recipe:SetCraftedItem(41512, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WRIST")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -3447,7 +3447,7 @@ function module:InitializeRecipes()
 	-- ----------------------------------------------------------------------------
 	-- Bolt of Embersilk Cloth -- 74964
 	recipe = AddRecipe(74964, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 440, 445, 450)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(53643, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_MATERIALS")
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3484, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 33684, 44783, 45559, 57405, 85910, 86004, 93525, 93542)
@@ -3489,14 +3489,14 @@ function module:InitializeRecipes()
 
 	-- Embersilk Net -- 75247
 	recipe = AddRecipe(75247, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(425, 425, 435, 445, 455)
+	recipe:SetSkillLevels(350, 350, 360, 365, 370)
 	recipe:SetCraftedItem(54442, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_MISC")
 	recipe:AddTrainer(1346, 2399, 3004, 3363, 3484, 3523, 4159, 4576, 4578, 5153, 9584, 11052, 11557, 16640, 16729, 17487, 18772, 26914, 27001, 28699, 33580, 33613, 33636, 33684, 44783, 45559, 57405, 85910, 86004, 93525, 93542)
 
 	-- Deathsilk Belt -- 75248
 	recipe = AddRecipe(75248, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(445, 445, 455, 460, 465)
+	recipe:SetSkillLevels(370, 370, 380, 385, 390)
 	recipe:SetCraftedItem(54471, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WAIST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3504,7 +3504,7 @@ function module:InitializeRecipes()
 
 	-- Deathsilk Bracers -- 75249
 	recipe = AddRecipe(75249, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(445, 445, 455, 460, 465)
+	recipe:SetSkillLevels(370, 370, 380, 385, 390)
 	recipe:SetCraftedItem(54473, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_WRIST")
 	recipe:AddFilters(F.CASTER, F.DPS, F.HEALER)
@@ -3512,7 +3512,7 @@ function module:InitializeRecipes()
 
 	-- Enchanted Spellthread -- 75250
 	recipe = AddRecipe(75250, V.CATA, Q.COMMON)
-	recipe:SetSkillLevels(450, 450, 465, 467, 470)
+	recipe:SetSkillLevels(375, 375, 385, 390, 395)
 	recipe:SetCraftedItem(54447, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_ITEM_ENHANCEMENT")
 	recipe:AddFilters(F.CASTER, F.HEALER)
@@ -5710,9 +5710,9 @@ function module:InitializeRecipes()
 	recipe:SetRecipeItem(138014, "BIND_ON_PICKUP")
 	recipe:SetCraftedItem(126988, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_FEET")
-	recipe:AddCustom("WORLD_QUEST")
 	recipe:AddVendor(93975)
 	recipe:AddQuest(41649)
+	recipe:AddCustom("WORLD_QUEST")
 
 	-- Silkweave Pantaloons -- 208353
 	recipe = AddRecipe(208353, V.LEGION, Q.COMMON)
@@ -5783,7 +5783,7 @@ function module:InitializeRecipes()
 	recipe:SetSkillLevels(800, 800, 800, 805, 810)
 	recipe:SetCraftedItem(146666, "BIND_ON_EQUIP")
 	recipe:SetItemFilterType("TAILORING_SHOULDER")
-	recipe:AddTrainer(1103, 1346, 2627, 3004, 3363, 4159, 4576, 5153, 9584, 11557, 16366, 16640, 17487, 26969, 28699, 33613, 33684, 45559, 57405,  85910, 86004)
+	recipe:AddTrainer(1103, 1346, 2627, 3004, 3363, 4159, 4576, 5153, 9584, 11557, 16366, 16640, 17487, 26969, 28699, 33613, 33684, 45559, 57405, 85910, 86004)
 
 	-- Lightweave Breeches -- 247807
 	recipe = AddRecipe(247807, V.LEGION, Q.COMMON)
